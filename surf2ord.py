@@ -289,7 +289,7 @@ def surf2ord(
 
                 # Yield and according measurements
                 if f"{cpd}_yield" in row:
-                    yield_type = "CUSTOM"
+                    #yield_type = "CUSTOM"
                     if f"{cpd}_yieldtype" in row:
                         if row[f"{cpd}_yieldtype"].upper() in mapping_analyses_ord.keys():
                             yield_type = row[f"{cpd}_yieldtype"].upper()
@@ -299,6 +299,10 @@ def surf2ord(
                             yield_type = "MS"
                         elif "GC" in row[f"{cpd}_yieldtype"].upper():
                             yield_type = "GC"
+                        elif "isolated" in row[f"{cpd}_yieldtype"].upper():
+                            yield_type = "WEIGHT"
+                        else: 
+                            yield_type = "CUSTOM"
                         outcome.analyses[f"{cpd}_{row[f'{cpd}_yieldtype']}"].CopyFrom(
                             reaction_pb2.Analysis(type=yield_type, details=row[f"{cpd}_yieldtype"])
                         )
@@ -329,15 +333,17 @@ def surf2ord(
                             vol = f"{row[f'{cpd}_fraction'] * scale / conc * 1000} ml"
                         else:
                             vol = f"{scale / conc * 1000} ml"
-                        name = row.get(f"{cpd}_cas", row.get(f"{cpd}_name", "solvent"))
-                        reaction.inputs[re.sub("_[0-9]+", "", cpd)].components.add().CopyFrom(
+                        name = row.get(row.get(f"{cpd}_name", "solvent"))
+                        reaction.inputs[re.sub("_[0-9]:", "_[0-9]", cpd)].components.add().CopyFrom(  # BJD changed this so each solvent is its own input. Multi-component liquid inputs are for pre-prepared solutions.
                             message_helpers.build_compound(
                                 smiles=row[f"{cpd}_smiles"],
                                 name=name,
                                 role="solvent",
                                 amount=vol,
                             )
-                        )
+                        )                                   
+                        reaction.inputs[re.sub("_[0-9]:", "_[0-9]", cpd)].components[0].identifiers.add(value = f"{row[f'{cpd}_cas']}", type = "CAS_NUMBER", details = "cas number from SURF _cas column")
+                  
                     except (ValueError, ZeroDivisionError):
                         logger.warning(
                             f"Invalid scale '{row.scale_mol}' or conc. '{row.concentration_mol_l}' provided in reaction {row.rxn_id}; unable to process reaction entry!"
@@ -377,9 +383,9 @@ def surf2ord(
 
                         eq = float(row[f"{cpd}_eq"])
                         scale = float(row.scale_mol)
-                        name = row.get(f"{cpd}_cas", row.get(f"{cpd}_name", "reagent"))
+                        name = row.get(row.get(f"{cpd}_name", "reagent"))
                         if inchi and name:  # when PubChem returned InChI
-                            reaction.inputs[re.sub("_[0-9]+", "", cpd)].components.add().CopyFrom(
+                            reaction.inputs[re.sub("_[0-9]:", "_[0-9]", cpd)].components.add().CopyFrom(
                                 message_helpers.build_compound(
                                     inchi=inchi,
                                     name=name,
@@ -387,8 +393,10 @@ def surf2ord(
                                     amount=f"{scale * eq * 1000} mmol",
                                 )
                             )
+                            compound_present = True
+                            #print(row.rxn_id)
                         elif smls or name:  # use SMILES
-                            reaction.inputs[re.sub("_[0-9]+", "", cpd)].components.add().CopyFrom(
+                            reaction.inputs[re.sub("_[0-9]:", "_[0-9]", cpd)].components.add().CopyFrom(
                                 message_helpers.build_compound(
                                     smiles=smls if smls else "",
                                     name=name,
@@ -396,6 +404,20 @@ def surf2ord(
                                     amount=f"{scale * eq * 1000} mmol",
                                 )
                             )
+                            compound_present = True
+                            #print(row.rxn_id)
+                        elif f"{cpd}_cas" in row: # this checks for the situation where a cas number is the only identifier provided
+                            reaction.inputs[re.sub("_[0-9]:", "_[0-9]", cpd)].components.add().CopyFrom(
+                                message_helpers.build_compound(
+                                    role=mapping_role.get(cpd[:-2], "UNSPECIFIED"),
+                                    amount=f"{scale * eq * 1000} mmol",
+                                )
+                            )
+                            
+                        if f"{cpd}_cas" in row and compound_present is True: # this adds the cas number if compound created on another identifier
+                            reaction.inputs[re.sub("_[0-9]:", "_[0-9]", cpd)].components[0].identifiers.add(value = f"{row[f'{cpd}_cas']}", type = "CAS_NUMBER", details = "cas number from SURF _cas column") 
+                        else:
+                            pass
                     except ValueError:
                         logger.warning(
                             f"Invalid {cpd}_eq number value {row[f'{cpd}_eq']} or scale number value {row.scale_mol} in reaction {row.rxn_id}; unable to process reaction entry!"
