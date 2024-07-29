@@ -1,5 +1,5 @@
 name: "Minisci dataset from Roche"
-description: "Minisci reactions from the literature, which were obtained in SURF format from 10.26434/chemrxiv-2023-nfq7h"
+description: "Minisci reactions which were extracted from the literature by Roche scientists and published in the SURF format (ChemRxiv, 2024, DOI: 10.26434/chemrxiv-2023-nfq7h)"
 reactions {
   identifiers {
     type: CUSTOM
