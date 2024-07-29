@@ -38,6 +38,8 @@ def surf2ord(
     input_file: Annotated[str, typer.Argument(help="name of the input file in SURF format")],
     output_file: Annotated[str, typer.Argument(help="name of the output file in ORD format; suffixes: .pbtxt or .pb")],
     delimiter: Annotated[str, typer.Argument(help="delimiter of the input file")] = "\t",
+    dataset_name: Annotated[str, typer.Option(help="Name of the dataset")] = "placeholder for dataset name - please update in the .pbtxt file if you don't include it here",
+    dataset_description: Annotated[str, typer.Option(help="Description of the dataset")] = "placeholder for dataset description - please update in the .pbtxt file if you don't include it here",
     username: Annotated[str, typer.Option(help="Name of the person submitting the reaction")] = None,
     email: Annotated[str, typer.Option(help="E-mail of the person submitting the reaction")] = None,
     orcid: Annotated[str, typer.Option(help="ORCID of the person submitting the reaction")] = None,
@@ -95,6 +97,7 @@ def surf2ord(
             if c.endswith("yield"):
                 df[c] = df[c] * 100.0
 
+    
     reactions, invalid = [], []
 
     for idx, row in track(df.iterrows(), total=len(df), description="Transforming SURF to ORD..."):
@@ -109,13 +112,16 @@ def surf2ord(
             logger.error(f"Reaction ID missing! Can't process reaction {idx}")
             continue
         else:
-            reaction.identifiers.add(type="NAME", value=row.rxn_id)
+            reaction.identifiers.add(type="CUSTOM", details= "rxn_id from SURF table" ,value=row.rxn_id)
+        
+        if "rxn_tech" in row:
+            reaction.identifiers.add(type="CUSTOM", details= "rxn_tech from SURF table", value=row.rxn_type)
         
         # add further identifiers
-        rxn_name = [row[n] for n in row.keys() if n in ("rxn_name", "rxn_tech", "rxn_type")]
+        rxn_name = [row[n] for n in row.keys() if n in ("rxn_name", "rxn_type")]
         if rxn_name:
             reaction.identifiers.add(
-                type="CUSTOM",
+                type="REACTION_TYPE",
                 value=re.sub(" {2,}", " ", " ".join(rxn_name)).strip(),
                 details=re.sub(" {2,}", " ", " ".join(rxn_name)).strip(),
             )
@@ -157,6 +163,7 @@ def surf2ord(
             reaction.notes.procedure_details = row["procedure"]
 
         # provenance either from SURF or overwritten from user input
+        # BJD: if data is sourced from types other than 'paper' then this conditional statement may need to check type for patent and if True, process the source_id as patent number.
         reaction.provenance.record_created.time.value = datetime.today().strftime("%Y-%m-%d")
         if "source_id" in row and re.match(doi_pattern, row.source_id):  # add DOI if present
             reaction.provenance.doi = re.findall(doi_pattern, row.source_id)[0]
@@ -220,7 +227,7 @@ def surf2ord(
                 product = outcome.products.add(identifiers=[{"type": "SMILES", "value": row[f"{cpd}_smiles"]}])
                 product.reaction_role = reaction_pb2.ReactionRole.PRODUCT
                 if f"{cpd}_cas" in row or f"{cpd}_name" in row:
-                    product.identifiers.add(type="NAME", value=row.get(f"{cpd}_cas", row.get(f"{cpd}_name")))
+                    product.identifiers.add(type="CAS_NUMBER", value=row.get(f"{cpd}_cas", row.get(f"{cpd}_name")))
 
                 # MS analytics
                 if f"{cpd}_ms" in row:
@@ -299,7 +306,7 @@ def surf2ord(
                         product.measurements.add(
                             type="YIELD",
                             analysis_key=f"{cpd}_{row[f'{cpd}_yieldtype']}",
-                            percentage={"value": 100 * float(row[f"{cpd}_yield"])},
+                            percentage={"value": float(row[f"{cpd}_yield"])},
                         )
                     else:
                         # logger.warning(f"Yield type not defined for {cpd}; using 'unknown'")
@@ -308,7 +315,7 @@ def surf2ord(
                         )
                         # outcome.analyses[f"{cpd}_unkown"].is_of_isolated_species = True
                         product.measurements.add(
-                            type="YIELD", analysis_key=f"{cpd}_unkown", percentage={"value": 100 * row[f"{cpd}_yield"]}
+                            type="YIELD", analysis_key=f"{cpd}_unkown", percentage={"value": row[f"{cpd}_yield"]}
                         )
 
             # Educt side
@@ -407,7 +414,14 @@ def surf2ord(
             reactions.append(reaction)
 
     # Validation and writing
-    dataset = dataset_pb2.Dataset(reactions=reactions)
+    dataset = dataset_pb2.Dataset(
+        name = dataset_name,
+        description= dataset_description,
+        reactions=reactions,
+    )
+
+    
+    #dataset_pb2.Dataset(reactions=reactions)
 
     if validate:
         logger.info("Running final ORD dataset validation...")

@@ -1,6 +1,6 @@
 typer[all]
-ord-schema==0.3.37
-rdkit-pypi
+ord-schema==0.3.88
+rdkit
 pandas
 beautifulsoup4
 lxml
