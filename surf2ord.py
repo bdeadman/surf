@@ -299,7 +299,7 @@ def surf2ord(
                             yield_type = "MS"
                         elif "GC" in row[f"{cpd}_yieldtype"].upper():
                             yield_type = "GC"
-                        elif "isolated" in row[f"{cpd}_yieldtype"].upper():
+                        elif "ISOLATED" in row[f"{cpd}_yieldtype"].upper():
                             yield_type = "WEIGHT"
                         else: 
                             yield_type = "CUSTOM"

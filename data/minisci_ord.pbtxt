@@ -189,7 +189,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -198,7 +198,7 @@ reactions {
     doi: "10.1021/acs.orglett.8b02988"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -398,7 +398,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -407,7 +407,7 @@ reactions {
     doi: "10.1021/acs.orglett.8b02988"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -607,7 +607,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -616,7 +616,7 @@ reactions {
     doi: "10.1021/acs.orglett.8b02988"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -800,7 +800,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -809,7 +809,7 @@ reactions {
     doi: "10.1021/acs.orglett.8b02988"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -989,7 +989,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -998,7 +998,7 @@ reactions {
     doi: "10.1021/acs.orglett.8b02988"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -1182,7 +1182,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -1191,7 +1191,7 @@ reactions {
     doi: "10.1021/acs.orglett.8b02988"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -1375,7 +1375,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -1384,7 +1384,7 @@ reactions {
     doi: "10.1021/acs.orglett.8b02988"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -1568,7 +1568,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -1577,7 +1577,7 @@ reactions {
     doi: "10.1021/acs.orglett.8b02988"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -1761,7 +1761,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -1770,7 +1770,7 @@ reactions {
     doi: "10.1021/acs.orglett.8b02988"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -1954,7 +1954,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -1963,7 +1963,7 @@ reactions {
     doi: "10.1021/acs.orglett.8b02988"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -2147,7 +2147,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -2156,7 +2156,7 @@ reactions {
     doi: "10.1021/acs.orglett.8b02988"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -2340,7 +2340,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -2349,7 +2349,7 @@ reactions {
     doi: "10.1021/acs.orglett.8b02988"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -2533,7 +2533,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -2542,7 +2542,7 @@ reactions {
     doi: "10.1021/acs.orglett.8b02988"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -2726,7 +2726,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -2735,7 +2735,7 @@ reactions {
     doi: "10.1021/acs.orglett.8b02988"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -2919,7 +2919,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -2928,7 +2928,7 @@ reactions {
     doi: "10.1021/acs.orglett.8b02988"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -3112,7 +3112,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -3121,7 +3121,7 @@ reactions {
     doi: "10.1021/acs.orglett.8b02988"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -3305,7 +3305,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -3314,7 +3314,7 @@ reactions {
     doi: "10.1021/acs.orglett.8b02988"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -3498,7 +3498,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -3507,7 +3507,7 @@ reactions {
     doi: "10.1021/acs.orglett.8b02988"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -3691,7 +3691,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -3700,7 +3700,7 @@ reactions {
     doi: "10.1021/acs.orglett.8b02988"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -3884,7 +3884,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -3893,7 +3893,7 @@ reactions {
     doi: "10.1021/acs.orglett.8b02988"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -4077,7 +4077,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -4086,7 +4086,7 @@ reactions {
     doi: "10.1021/acs.orglett.8b02988"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -4270,7 +4270,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -4279,7 +4279,7 @@ reactions {
     doi: "10.1021/acs.orglett.8b02988"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -4463,7 +4463,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -4472,7 +4472,7 @@ reactions {
     doi: "10.1021/acs.orglett.8b02988"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -4656,7 +4656,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -4665,7 +4665,7 @@ reactions {
     doi: "10.1021/acs.orglett.8b02988"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -4849,7 +4849,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -4858,7 +4858,7 @@ reactions {
     doi: "10.1021/acs.orglett.8b02988"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -5042,7 +5042,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -5051,7 +5051,7 @@ reactions {
     doi: "10.1021/acs.orglett.8b02988"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -5235,7 +5235,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -5244,7 +5244,7 @@ reactions {
     doi: "10.1021/acs.orglett.8b02988"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -5428,7 +5428,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -5437,7 +5437,7 @@ reactions {
     doi: "10.1021/acs.orglett.8b02988"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -5621,7 +5621,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -5630,7 +5630,7 @@ reactions {
     doi: "10.1021/acs.orglett.8b02988"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -5814,7 +5814,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -5823,7 +5823,7 @@ reactions {
     doi: "10.1021/acs.orglett.8b02988"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -6007,7 +6007,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -6016,7 +6016,7 @@ reactions {
     doi: "10.1021/acs.orglett.8b02988"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -6200,7 +6200,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -6209,7 +6209,7 @@ reactions {
     doi: "10.1021/acs.orglett.8b02988"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -6393,7 +6393,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -6402,7 +6402,7 @@ reactions {
     doi: "10.1021/acs.orglett.8b02988"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -6586,7 +6586,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -6595,7 +6595,7 @@ reactions {
     doi: "10.1021/acs.orglett.8b02988"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -6779,7 +6779,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -6788,7 +6788,7 @@ reactions {
     doi: "10.1021/acs.orglett.8b02988"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -6972,7 +6972,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -6981,7 +6981,7 @@ reactions {
     doi: "10.1021/acs.orglett.8b02988"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -7165,7 +7165,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -7174,7 +7174,7 @@ reactions {
     doi: "10.1021/acs.orglett.8b02988"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -7349,7 +7349,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -7358,7 +7358,7 @@ reactions {
     doi: "10.1021/acs.orglett.8b02988"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -7542,7 +7542,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -7551,7 +7551,7 @@ reactions {
     doi: "10.1021/acs.orglett.8b02988"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -7735,7 +7735,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -7744,7 +7744,7 @@ reactions {
     doi: "10.1021/acs.orglett.8b02988"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -7928,7 +7928,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -7937,7 +7937,7 @@ reactions {
     doi: "10.1021/acs.orglett.8b02988"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -8121,7 +8121,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -8130,7 +8130,7 @@ reactions {
     doi: "10.1021/acs.orglett.8b02988"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -8314,7 +8314,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -8323,7 +8323,7 @@ reactions {
     doi: "10.1021/acs.orglett.8b02988"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -8507,7 +8507,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -8516,7 +8516,7 @@ reactions {
     doi: "10.1021/acs.orglett.8b02988"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -8723,7 +8723,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -8732,7 +8732,7 @@ reactions {
     doi: "10.1021/ja211422g"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -8939,7 +8939,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -8948,7 +8948,7 @@ reactions {
     doi: "10.1021/ja211422g"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -9155,7 +9155,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -9164,7 +9164,7 @@ reactions {
     doi: "10.1021/ja211422g"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -9371,7 +9371,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -9380,7 +9380,7 @@ reactions {
     doi: "10.1021/ja211422g"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -9605,14 +9605,14 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
     analyses {
       key: "product_2_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -9621,7 +9621,7 @@ reactions {
     doi: "10.1021/ja211422g"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -9828,7 +9828,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -9837,7 +9837,7 @@ reactions {
     doi: "10.1021/ja211422g"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -10044,7 +10044,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -10053,7 +10053,7 @@ reactions {
     doi: "10.1021/ja211422g"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -10260,7 +10260,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -10269,7 +10269,7 @@ reactions {
     doi: "10.1021/ja211422g"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -10476,7 +10476,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -10485,7 +10485,7 @@ reactions {
     doi: "10.1021/ja211422g"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -10692,7 +10692,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -10701,7 +10701,7 @@ reactions {
     doi: "10.1021/ja211422g"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -10908,7 +10908,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -10917,7 +10917,7 @@ reactions {
     doi: "10.1021/ja211422g"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -11124,7 +11124,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -11133,7 +11133,7 @@ reactions {
     doi: "10.1021/ja211422g"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -11340,7 +11340,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -11349,7 +11349,7 @@ reactions {
     doi: "10.1021/ja211422g"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -11556,7 +11556,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -11565,7 +11565,7 @@ reactions {
     doi: "10.1021/ja211422g"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -11808,21 +11808,21 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
     analyses {
       key: "product_2_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
     analyses {
       key: "product_3_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -11831,7 +11831,7 @@ reactions {
     doi: "10.1021/ja211422g"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -12056,14 +12056,14 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
     analyses {
       key: "product_2_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -12072,7 +12072,7 @@ reactions {
     doi: "10.1021/ja211422g"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -12315,21 +12315,21 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
     analyses {
       key: "product_2_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
     analyses {
       key: "product_3_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -12338,7 +12338,7 @@ reactions {
     doi: "10.1021/ja211422g"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -12545,7 +12545,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -12554,7 +12554,7 @@ reactions {
     doi: "10.1021/ja211422g"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -12761,7 +12761,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -12770,7 +12770,7 @@ reactions {
     doi: "10.1021/ja211422g"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -12977,7 +12977,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -12986,7 +12986,7 @@ reactions {
     doi: "10.1021/ja211422g"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -13193,7 +13193,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -13202,7 +13202,7 @@ reactions {
     doi: "10.1021/ja211422g"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -13409,7 +13409,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -13418,7 +13418,7 @@ reactions {
     doi: "10.1021/ja211422g"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -13625,7 +13625,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -13634,7 +13634,7 @@ reactions {
     doi: "10.1021/ja211422g"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -13841,7 +13841,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -13850,7 +13850,7 @@ reactions {
     doi: "10.1021/ja211422g"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -14057,7 +14057,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -14066,7 +14066,7 @@ reactions {
     doi: "10.1021/ja211422g"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -14273,7 +14273,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -14282,7 +14282,7 @@ reactions {
     doi: "10.1021/ja211422g"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -14489,7 +14489,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -14498,7 +14498,7 @@ reactions {
     doi: "10.1021/ja211422g"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -14741,21 +14741,21 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
     analyses {
       key: "product_2_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
     analyses {
       key: "product_3_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -14764,7 +14764,7 @@ reactions {
     doi: "10.1021/ja211422g"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -14971,7 +14971,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -14980,7 +14980,7 @@ reactions {
     doi: "10.1021/ja211422g"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -15164,7 +15164,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -15173,7 +15173,7 @@ reactions {
     doi: "10.1038/nature11680"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -15375,14 +15375,14 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
     analyses {
       key: "product_2_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -15391,7 +15391,7 @@ reactions {
     doi: "10.1038/nature11680"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -15593,14 +15593,14 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
     analyses {
       key: "product_2_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -15609,7 +15609,7 @@ reactions {
     doi: "10.1038/nature11680"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -15793,7 +15793,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -15802,7 +15802,7 @@ reactions {
     doi: "10.1038/nature11680"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -15986,7 +15986,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -15995,7 +15995,7 @@ reactions {
     doi: "10.1038/nature11680"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -16208,7 +16208,7 @@ reactions {
     doi: "10.1038/nature11680"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -16410,14 +16410,14 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
     analyses {
       key: "product_2_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -16426,7 +16426,7 @@ reactions {
     doi: "10.1038/nature11680"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -16628,14 +16628,14 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
     analyses {
       key: "product_2_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -16644,7 +16644,7 @@ reactions {
     doi: "10.1038/nature11680"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -16828,7 +16828,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -16837,7 +16837,7 @@ reactions {
     doi: "10.1038/nature11680"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -17021,7 +17021,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -17030,7 +17030,7 @@ reactions {
     doi: "10.1038/nature11680"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -17214,7 +17214,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -17223,7 +17223,7 @@ reactions {
     doi: "10.1038/nature11680"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -17407,7 +17407,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -17416,7 +17416,7 @@ reactions {
     doi: "10.1038/nature11680"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -17618,14 +17618,14 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
     analyses {
       key: "product_2_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -17634,7 +17634,7 @@ reactions {
     doi: "10.1038/nature11680"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -17859,14 +17859,14 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
     analyses {
       key: "product_2_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -17875,7 +17875,7 @@ reactions {
     doi: "10.1038/nature11680"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -18077,14 +18077,14 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
     analyses {
       key: "product_2_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -18093,7 +18093,7 @@ reactions {
     doi: "10.1038/nature11680"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -18277,7 +18277,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -18286,7 +18286,7 @@ reactions {
     doi: "10.1038/nature11680"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -18470,7 +18470,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -18479,7 +18479,7 @@ reactions {
     doi: "10.1038/nature11680"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -18663,7 +18663,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -18672,7 +18672,7 @@ reactions {
     doi: "10.1038/nature11680"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -18856,7 +18856,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -18865,7 +18865,7 @@ reactions {
     doi: "10.1038/nature11680"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -19072,7 +19072,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -19081,7 +19081,7 @@ reactions {
     doi: "10.1038/nature11680"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -19265,7 +19265,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -19274,7 +19274,7 @@ reactions {
     doi: "10.1038/nature11680"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -19476,14 +19476,14 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
     analyses {
       key: "product_2_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -19492,7 +19492,7 @@ reactions {
     doi: "10.1038/nature11680"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -19694,14 +19694,14 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
     analyses {
       key: "product_2_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -19710,7 +19710,7 @@ reactions {
     doi: "10.1038/nature11680"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -19894,7 +19894,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -19903,7 +19903,7 @@ reactions {
     doi: "10.1038/nature11680"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -20105,14 +20105,14 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
     analyses {
       key: "product_2_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -20121,7 +20121,7 @@ reactions {
     doi: "10.1038/nature11680"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -20305,7 +20305,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -20314,7 +20314,7 @@ reactions {
     doi: "10.1038/nature11680"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -20498,7 +20498,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -20507,7 +20507,7 @@ reactions {
     doi: "10.1038/nature11680"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -20691,7 +20691,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -20700,7 +20700,7 @@ reactions {
     doi: "10.1038/nature11680"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -20884,7 +20884,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -20893,7 +20893,7 @@ reactions {
     doi: "10.1038/nature11680"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -21077,7 +21077,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -21086,7 +21086,7 @@ reactions {
     doi: "10.1038/nature11680"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -21281,7 +21281,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -21290,7 +21290,7 @@ reactions {
     doi: "10.1038/nature11680"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -21480,7 +21480,7 @@ reactions {
     doi: "10.1038/nature11680"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -21664,7 +21664,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -21673,7 +21673,7 @@ reactions {
     doi: "10.1038/nature11680"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -21940,7 +21940,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -21949,7 +21949,7 @@ reactions {
     doi: "10.1021/jo9010624"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -22216,7 +22216,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -22225,7 +22225,7 @@ reactions {
     doi: "10.1021/jo9010624"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -22492,7 +22492,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -22501,7 +22501,7 @@ reactions {
     doi: "10.1021/jo9010624"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -22768,7 +22768,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -22777,7 +22777,7 @@ reactions {
     doi: "10.1021/jo9010624"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -23026,7 +23026,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -23035,7 +23035,7 @@ reactions {
     doi: "10.1021/jo9010624"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -23302,7 +23302,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -23311,7 +23311,7 @@ reactions {
     doi: "10.1021/jo9010624"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -23578,7 +23578,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -23587,7 +23587,7 @@ reactions {
     doi: "10.1021/jo9010624"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -23872,14 +23872,14 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
     analyses {
       key: "product_2_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -23888,7 +23888,7 @@ reactions {
     doi: "10.1021/jo9010624"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -24155,7 +24155,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -24164,7 +24164,7 @@ reactions {
     doi: "10.1021/jo9010624"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -24431,7 +24431,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -24440,7 +24440,7 @@ reactions {
     doi: "10.1021/jo9010624"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -24707,7 +24707,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -24716,7 +24716,7 @@ reactions {
     doi: "10.1021/jo9010624"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -24983,7 +24983,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -24992,7 +24992,7 @@ reactions {
     doi: "10.1021/jo9010624"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -25259,7 +25259,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -25268,7 +25268,7 @@ reactions {
     doi: "10.1021/jo9010624"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -25535,7 +25535,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -25544,7 +25544,7 @@ reactions {
     doi: "10.1021/jo9010624"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -25811,7 +25811,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -25820,7 +25820,7 @@ reactions {
     doi: "10.1021/jo9010624"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -26069,7 +26069,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -26078,7 +26078,7 @@ reactions {
     doi: "10.1021/jo9010624"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -26345,7 +26345,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -26354,7 +26354,7 @@ reactions {
     doi: "10.1021/jo9010624"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -26621,7 +26621,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -26630,7 +26630,7 @@ reactions {
     doi: "10.1021/jo9010624"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -26897,7 +26897,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -26906,7 +26906,7 @@ reactions {
     doi: "10.1021/jo9010624"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -27173,7 +27173,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -27182,7 +27182,7 @@ reactions {
     doi: "10.1021/jo9010624"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -27449,7 +27449,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -27458,7 +27458,7 @@ reactions {
     doi: "10.1021/jo9010624"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -27725,7 +27725,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -27734,7 +27734,7 @@ reactions {
     doi: "10.1021/jo9010624"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -27983,7 +27983,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -27992,7 +27992,7 @@ reactions {
     doi: "10.1021/jo9010624"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
@@ -28259,7 +28259,7 @@ reactions {
     analyses {
       key: "product_1_isolated"
       value {
-        type: CUSTOM
+        type: WEIGHT
         details: "isolated"
       }
     }
@@ -28268,7 +28268,7 @@ reactions {
     doi: "10.1021/jo9010624"
     record_created {
       time {
-        value: "2024-07-30"
+        value: "2024-09-16"
       }
       person {
         username: "Alex T. Mueller"
